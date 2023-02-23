@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="head">
+      <UniqueIdentifier>{edcbc72d-590b-444b-918a-f1157e3c7049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{8650583e-e3be-4941-b624-1852f941138c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="Dump.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="TestWebSocket.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="WebSocketServer.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="IDefine_WebSocket.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="sha1\sha1.h">
+      <Filter>head</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="WebSocketServerMain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="IDefine_WebSocket.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestWebSocket.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="WebSocketServer_Write.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="WebSocketServer_Read.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="sha1\sha1.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="WebSocketServer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
